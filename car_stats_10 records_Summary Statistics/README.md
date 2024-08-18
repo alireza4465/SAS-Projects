@@ -9,3 +9,5 @@ This project analyzes the `SASHELP.CARS` dataset using various SAS procedures. T
 - **Scatter Plot**: Plotting Horsepower vs. MPG (City).
 
 The SAS code is contained in the `car_analysis.sas` file.
+
+car_stats_10 records_Summary Statistics/car_stats_10record.png
