@@ -11,4 +11,4 @@ This project analyzes the `SASHELP.CARS` dataset using various SAS procedures. T
 The SAS code is contained in the `car_analysis.sas` file.
 
 ## Results
-![Car Analysis](car_stats_10 records_Summary Statistics/car_stats_10record.png)
+![Car Analysis](https://github.com/alireza4465/SAS-Projects/blob/main/car_stats_10%20records_Summary%20Statistics/car_stats_10record.png)
