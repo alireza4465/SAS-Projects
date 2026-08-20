@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_car_analysis",
+  "source_file": "car_stats_10 records_Summary Statistics/car_analysis.sas",
+  "source_blob_sha": "07a8b8c4ae06932cda5a0d5e1f15c8cc73c2652e",
+  "source_commit": "7480bc17aa6d3933a485d631672d12e398692261",
+  "notes": "Byte-identical copy of the repo's only script: PRINT (first 10 obs) + MEANS + FREQ + CORR + SGPLOT scatter over SASHELP.CARS. No edits needed -- script is already self-contained (SASHELP data, no external paths). autoexec.sas adds only options obs=100 to cap the captured run."
+}
