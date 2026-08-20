@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-20T08:04:01Z",
+  "_captured_run_id": "r_04b895b4a06f4a6ea8bf1cec416dfc95",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC PRINT completed: 10 observations printed, 15 variables",
+    "NOTE: PROC MEANS statement used.",
+    "NOTE: PROC FREQ statement used.",
+    "NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

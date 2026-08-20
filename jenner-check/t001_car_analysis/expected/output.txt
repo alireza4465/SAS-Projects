@@ -1,0 +1,68 @@
+                                        First 10 observations from SASHELP.CARS
+
+  Obs   Make     Model    Type  Origin  DriveTrain   MSRP  Invoice  EngineSize  Cylinders  Horsepower  MPG_City  MPG_Highway  Weight  Wheelbase  Length
+    1  Acura  A334 4dr  Sedan   Asia    Rear        24620    21911         2.6          6         227        21           26    3545        102     178
+    2  Acura  A764 4dr  Sedan   Asia    Front       23010    20478         2.9          6         231        21           33    3275        109     193
+    3  Acura  A804 4dr  Sedan   Asia    Front       32010    28488         2.8          6         223        22           27    2735        102     174
+    4  Acura  E162 4dr  Sedan   Asia    Front       20645    18993         2.5          6         196        20           31    3470        104     174
+    5  Acura  E592 4dr  Sedan   Asia    Front       26255    24154         2.9          6         200        20           30    3195        111     190
+    6  Acura  G643 2dr  Sports  Asia    All         48970    43093         3.6          8         334        16           23    3410        100     175
+    7  Acura  G839 SUV  SUV     Asia    Front       41670    37086         4.2          8         309        12           22    5260        111     175
+    8  Acura  K420 4dr  Sedan   Asia    Rear        29500    26550         2.9          6         169        18           27    3585        101     186
+    9  Acura  K890 4dr  Sedan   Asia    Front       23890    21501         2.5          6         165        19           28    2770        105     183
+   10  Acura  M471 2dr  Sports  Asia    Rear        49000    44590         3.6          8         318        15           28    3835        102     184
+
+... 90 more observations (showing 10 of 100)
+
+                                  Summary Statistics of Key Variables in SASHELP.CARS
+
+                                                  The MEANS Procedure
+
+ Variable     Label                                       N              Mean          Std Dev           Minimum           Maximum
+ ---------------------------------------------------------------------------------------------------------------------------------
+ MSRP         Manufacturer suggested retail price       100     29440.2000000     8061.3388654     19785.0000000     56875.0000000
+ EngineSize   Engine size (liters)                      100         2.8640000        0.6285336         1.9000000         4.8000000
+ Horsepower   Maximum horsepower                        100       214.5800000       45.8156561       160.0000000       356.0000000
+ MPG_City     City miles per gallon                     100        19.9700000        3.3528369        12.0000000        25.0000000
+ MPG_Highway  Highway miles per gallon                  100        27.5000000        4.0214074        17.0000000        33.0000000
+ ---------------------------------------------------------------------------------------------------------------------------------
+
+                                  Frequency Distribution of Car Types in SASHELP.CARS
+
+                                                   The FREQ Procedure
+
+Vehicle type    Frequency    Percent
+-------------------------------------
+SUV                    12     12.00
+Sedan                  66     66.00
+Sports                 12     12.00
+Truck                   2      2.00
+Wagon                   8      8.00
+                                  Frequency Distribution of Car Types in SASHELP.CARS
+
+                    The CORR Procedure
+          5 Variables:    Manufacturer suggested retail price   Engine size (liters)   Maximum horsepower   City miles per gallon   Highway miles per gallon
+                    Simple Statistics
+Variable         N      Mean   Std Dev       Sum   Minimum   Maximum
+--------  --------  --------  --------  --------  --------  --------
+Manufacturer suggested retail price       100  29440.20000  8061.33887  2944020.00000  19785.00000  56875.00000
+Engine size (liters)                      100      2.86400     0.62853      286.40000      1.90000      4.80000
+Maximum horsepower                        100    214.58000    45.81566    21458.00000    160.00000    356.00000
+City miles per gallon                     100     19.97000     3.35284     1997.00000     12.00000     25.00000
+Highway miles per gallon                  100     27.50000     4.02141     2750.00000     17.00000     33.00000
+   Pearson Correlation Coefficients, N = 100
+          Prob > |r| under H0: Rho=0
+                MSRP  EngineSize  Horsepower  MPG_City  MPG_Highway
+--------  --------  --------  --------  --------  --------
+MSRP       1.00000   0.57378   0.66790  -0.47453  -0.48689
+              .       <.0001    <.0001    <.0001    <.0001
+EngineSize   0.57378   1.00000   0.57561  -0.62171  -0.73732
+            <.0001      .       <.0001    <.0001    <.0001
+Horsepower   0.66790   0.57561   1.00000  -0.51088  -0.51469
+            <.0001    <.0001      .       <.0001    <.0001
+MPG_City  -0.47453  -0.62171  -0.51088   1.00000   0.64240
+            <.0001    <.0001    <.0001      .       <.0001
+MPG_Highway  -0.48689  -0.73732  -0.51469   0.64240   1.00000
+            <.0001    <.0001    <.0001    <.0001      .
+                                  Frequency Distribution of Car Types in SASHELP.CARS
+
